@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+:root{
+    --chumbo: #0B0B0B;
+    --cinza: #191919;
+    --amarelo: #E19808;
+    --rosa: #DD839D;
+
+    --fonte: Helvetica , Arial, Verdana, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.25em;
+}
+
+body{
+    background-color: var(--chumbo);
+}
+header{
+    background-color: black;
+    font-family: var(--fonte);
+    color: white;
+    min-height: 150px;
+    text-align: center;
+}
+header > h1{
+    padding-top: 30px;
+    font-size: 40px;
+}
+header > p{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 30px; 
+}
+header > p > a{
+    text-decoration: none;
+    color: var(--amarelo);
+}
+header > p > a:hover{
+    text-decoration: underline;
+}
+nav{
+    background-color: black;
+    font: normal bold 1em var(--fonte);
+    padding: 10px;
+}
+nav > a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition-duration: 0.35s;
+}
+nav > a:hover{
+    background-color: var(--amarelo);
+    color: black;
+}
+main > article{
+    background-color: var(--cinza);
+    border-radius: 10px;
+    min-width: 460px;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 10px;
+}
+main strong{
+    text-decoration: underline;
+}
+main > article h1, main > article h2{
+    text-align: center;
+    background-color: var(--amarelo);
+    font-family: var(--fonte);
+    border-radius: 10px;
+    font-size: 2em;
+    margin: 0px -10px;
+}
+main > article > p {
+    font: 1em var(--fonte);
+    text-indent: 30px;
+    color: white;
+    padding: 25px 35px;
+    text-align: justify;
+}
+main > article > p > a{
+    text-decoration: none;
+    color: var(--amarelo);
+}
+main > article > p > a:hover{
+    text-decoration: underline;
+}
+main > article > div{
+    text-align: center;
+}
+main > article > div > a > img{
+    padding: 20px;
+}
+main> article > div.banner > a > picture > img{
+    width: 100%;
+    padding: 20px 0px;
+}
+div.trailer{
+    background-color: var(--rosa);
+    margin: 0px -10px 0px -10px;
+    padding: 20px;
+    padding-bottom: 55.6%;
+    position: relative;
+}
+div.trailer > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside{
+    background-color: var(--chumbo);
+    display: block;
+    margin: 20px auto;
+    max-width: 850px;
+    border-radius: 10px;
+    padding: 10px;
+}
+aside > h3{
+    background-color: var(--amarelo);
+    font-family: var(--fonte);
+    border-radius: 10px 10px 0px 0px;
+    text-indent: 15px;
+    font-size: 1.5em;
+    margin: -10px -10px 0px -10px;
+}
+aside > p{
+    color: white;
+    font-family: var(--fonte);
+    text-indent: 30px;
+    padding: 15px;
+    text-align: justify;
+}
+aside > ul{
+    color: white;
+    font-family: var(--fonte);
+    list-style-position: inside;
+    padding: 5px 25px;
+    columns: 2;
+}
+aside > ul > li > abbr{
+    text-decoration: none;
+}
+aside > ul > li > abbr > a{
+    text-decoration: none;
+    color: white;
+}
+aside > ul > li > abbr > a:hover{
+    text-decoration: underline;
+}
+aside > p > a{
+    text-decoration: none;
+    color: var(--amarelo);
+}
+aside > p > a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: var(--amarelo);
+    text-align: center;
+    font-family: var(--fonte);
+    margin-top: 25px;
+}
+footer p{
+    padding: 5px;
+    margin: auto;
+}
+footer a{
+    text-decoration: none;
+    color: var(--preto);
+}
+footer a:hover{text-decoration: underline;
+}
