@@ -60,7 +60,7 @@ nav > a:hover{
 main > article{
     background-color: var(--cinza);
     border-radius: 10px;
-    min-width: 300px;
+    min-width: 460px;
     max-width: 1200px;
     margin: 0px auto;
     padding: 10px;
