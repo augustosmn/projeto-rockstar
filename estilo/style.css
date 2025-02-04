@@ -61,9 +61,10 @@ main > article{
     background-color: var(--cinza);
     border-radius: 10px;
     max-width: 1200px;
-    width: 100%;
+    width: calc(100% - 20px);
     margin: 0px auto;
     padding: 10px;
+    overflow-x: hidden;
 }
 main strong{
     text-decoration: underline;
